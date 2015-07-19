@@ -10,7 +10,7 @@
 		6683A0A31B5BD135002E0542 /* PromiseKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 6683A0A21B5BD135002E0542 /* PromiseKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6683A0A91B5BD135002E0542 /* PromiseKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6683A09D1B5BD135002E0542 /* PromiseKit.framework */; };
 		6683A0B01B5BD135002E0542 /* PromiseKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6683A0AF1B5BD135002E0542 /* PromiseKitTests.m */; };
-		6683A0BB1B5BD197002E0542 /* CocoaPromise.h in Headers */ = {isa = PBXBuildFile; fileRef = 6683A0B91B5BD197002E0542 /* CocoaPromise.h */; };
+		6683A0BB1B5BD197002E0542 /* CocoaPromise.h in Headers */ = {isa = PBXBuildFile; fileRef = 6683A0B91B5BD197002E0542 /* CocoaPromise.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6683A0BC1B5BD197002E0542 /* CocoaPromise.m in Sources */ = {isa = PBXBuildFile; fileRef = 6683A0BA1B5BD197002E0542 /* CocoaPromise.m */; };
 /* End PBXBuildFile section */
 
@@ -115,8 +115,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6683A0BB1B5BD197002E0542 /* CocoaPromise.h in Headers */,
 				6683A0A31B5BD135002E0542 /* PromiseKit.h in Headers */,
+				6683A0BB1B5BD197002E0542 /* CocoaPromise.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
